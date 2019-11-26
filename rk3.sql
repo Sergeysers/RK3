@@ -1,7 +1,7 @@
 CREATE TABLE `news` (
 `name` varchar(30) NOT NULL,
 `text` varchar(300) NOT NULL,
-`date` int(19) NOT NULL
+`date` varchar(19) NOT NULL
 );
 INSERT INTO `news` (`name`,`text`,`date`) VALUES
 ('Новость №1','Новость дня...','2018-10-12 11:00:00'),
